@@ -11,6 +11,7 @@ let casado = true;
 let valorProduto = 5.35;
 
 console.log("Meu nome é: ", nome);
+console.log(nome[0]);
 console.log("Idade", idade);
 console.log("Casado? " + casado);
 console.log("R$", valorProduto);

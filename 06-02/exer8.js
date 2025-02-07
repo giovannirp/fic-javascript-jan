@@ -1,0 +1,2 @@
+const frase = "Olá mundo!";
+

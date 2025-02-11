@@ -10,7 +10,7 @@ let numero = prompt("Digite um número");
 if (numero > 0) {
     document.write(`o número ${numero} é positivo`);
 } else if (numero < 0) {
-    document.write(`o número ${numero} é negativo `)
+    document.write(`o número ${numero} é negativo `);
 } else {
-    document.write(`O número ${numero}, não é válido`)
+    document.write(`O número ${numero}, não é válido`);
 }

@@ -9,9 +9,11 @@
   - Agora, teste diferentes idades para se certificar que a condição do `if`  
     também está funcionando.
 */
-let age = 64;
+let age = 65;
+const isAge = age <=7;
+const isAgeLast = age >= 65;
 
-if (age <=7 || age >= 65) {
+if (isAge || isAgeLast) {
   console.log(`Para você, a entrada é grátis!`);
 } else {
   console.log(`A entrada é R$30,00`);

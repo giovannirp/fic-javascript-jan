@@ -2,7 +2,11 @@
 const inputNota = document.getElementById("nota");
 const resultado = document.getElementById("resultado");
 
-function resultadoNotaClick() {
-    console.log("Olá Giovanni");
-    alert("Olá Giovanni");
+function resultadoNotaClick(event) {
+    // previne um comportamento no navegador
+    event.preventDefault();
+    console.log(inputNota.value);
+
+    // condição
+    
 }

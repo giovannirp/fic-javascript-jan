@@ -8,5 +8,11 @@ function resultadoNotaClick(event) {
     console.log(inputNota.value);
 
     // condição
+    if (inputNota.value >=6) {
+        resultado.innerHTML = "Aprovado";
+    } else {
+        resultado.innerHTML = "Reprovado";
+    }
     
+    inputNota.value = "";
 }

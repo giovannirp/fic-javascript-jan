@@ -10,6 +10,12 @@ const txtEmail = document.getElementById("txt-email");
 function mudar(event) {
     event.preventDefault();
 
+    // Validação de formulário
+    if (nome.value === "" || cidade.value === "" || email.value === "") {
+        alert("Preencha o campo!");
+        return false;
+    }
+
     // Imprimir na tela
     titulo.innerHTML = nome.value;
     subtitulo.innerHTML = cidade.value;
@@ -17,5 +23,18 @@ function mudar(event) {
 
     // Limpar os campos
     nome.value = "";
+    cidade.value = "";
+    email.value = "";
 
 }
+
+// Outra função
+function mudarCor() {
+    if (document.body.style.backgroundColor === "orange") {
+        document.body.style.backgroundColor = ""; // Volta para a cor Padrão
+    } else {
+        document.body.style.backgroundColor = "orange"
+    }
+   
+}
+

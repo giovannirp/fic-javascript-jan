@@ -1,8 +1,13 @@
-export default function() {
+export default function(props) {
+
+    /*
+        O children permite que você passe e rederize
+        conteúdo dinâmico dentro de um componente em React
+    */
 
     return (
-        <div>
-            banner
+        <div className="bannerStyle">
+            {props.children}
         </div>
     )
 }

@@ -10,10 +10,9 @@ function App() {
         
         <h1>Seja bem vindo!</h1>
 
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Fugiat aspernatur alias eum quam voluptate harum quisquam facere iste, rerum reiciendis.
-        </p>
+        
+
+
       </div>
     </>
   )

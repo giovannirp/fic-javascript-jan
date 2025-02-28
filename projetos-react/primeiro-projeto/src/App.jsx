@@ -6,13 +6,14 @@ import img1 from "./assets/img-1.jpg";
 import img2 from "./assets/img-2.jpg";
 
 import "./App.css";
+import Count from "./Components/Count";
 
 function App() {
 
   return (
     <>
       <div className="container">
-        <Header title="Logo New" />
+        {/* <Header title="Logo New" />
         <Banner>
           <h1>Bem vindo ao Meu Site</h1>
           <p>Aqui você encontra as melhores ofertas!</p>
@@ -22,7 +23,9 @@ function App() {
           <ImgCard caption="Uma imagem legal" newImg={img1} />
         </div>
 
-        <Card />
+        <Card /> */}
+
+        <Count />
       </div>
     </>
   )

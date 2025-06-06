@@ -13,7 +13,7 @@ function constroiCard(titulo, descricao, url, imagem) {
         <div class="descricao-video">
             <img src=${imagem} alt="logo canal alura">
             <h3>${titulo}</h3>
-            <p>${descricao} gigi</p>
+            <p>${descricao}</p>
         </div>
     `;
 

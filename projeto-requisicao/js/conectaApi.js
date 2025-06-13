@@ -23,11 +23,23 @@ async function criaVideo(titulo, descricao, url, imagem) {
     return conexaoConvertida;
 }
 
+// async function buscaVideo(termoDeBusca) {
+//     const conexao = await fetch(`http://localhost:3000/videos?q=${termoDeBusca}`);
+//     const conexaoConvertida = await conexao.json();
+
+//     return conexaoConvertida;
+// }
+
 async function buscaVideo(termoDeBusca) {
     const conexao = await fetch(`http://localhost:3000/videos?q=${termoDeBusca}`);
-    const conexaoConvertida = conexao.json();
+    const conexaoConvertida = await conexao.json();
 
-    return conexaoConvertida;
+    // Filtra os vídeos que têm o termo no título
+    const filtrados = conexaoConvertida.filter(video => 
+        video.titulo.toLowerCase().includes(termoDeBusca.toLowerCase())
+    );
+
+    return filtrados;
 }
 
 export const conectaApi = {

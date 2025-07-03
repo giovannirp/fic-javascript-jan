@@ -1,4 +1,5 @@
 import { conectaApi } from "./conectaApi.js";
+import constroiCard from "./mostrarVideo.js";
 
 async function buscarVideo(evento) {
     evento.preventDefault();
@@ -6,7 +7,14 @@ async function buscarVideo(evento) {
     const busca = await conectaApi.buscaVideo(dadosDePesquisa)
 
     console.log(busca)
-    // alert("teste")
+    const lista = document.querySelector("[data-lista]");
+
+    while (lista.firstChild) {
+        lista.removeChild(lista.firstChild);
+    }
+
+    busca.forEach(elemento => lista.appendChild(
+        constroiCard(elemento.titulo, elemento.descricao, elemento.url, elemento.imagem)))
 }
 
 const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");

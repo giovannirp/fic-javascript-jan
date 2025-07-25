@@ -1,5 +1,6 @@
 import Banner from "./Components/Banner"
 import Header from "./Components/Header"
+import MovieSection from "./Components/MovieSection"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Banner src="./banner.png" alt="Banner"/>
+      <MovieSection />
     </>
   )
 }

@@ -1,5 +1,10 @@
 {
-    "usuarios": [],
-    "trasacoes": []
+  "usuarios": [
+    {
+      "id": "d9b5",
+      "nome": "Maria",
+      "renda": "4444"
+    }
+  ],
+  "trasacoes": []
 }
-

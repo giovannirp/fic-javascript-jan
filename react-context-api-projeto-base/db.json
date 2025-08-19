@@ -9,6 +9,11 @@
       "id": "a18b",
       "nome": "João",
       "renda": "33"
+    },
+    {
+      "id": "b634",
+      "nome": "dede",
+      "renda": "55"
     }
   ],
   "transacoes": [
@@ -35,6 +40,30 @@
       "tipo": "despesa",
       "categoria": "Cor sim",
       "data": "2025-08-18"
+    },
+    {
+      "id": "ccc1",
+      "nome": "Pix",
+      "valor": "333",
+      "tipo": "despesa",
+      "categoria": "Cor sim",
+      "data": "2025-08-19"
+    },
+    {
+      "id": "a791",
+      "nome": "",
+      "valor": "555",
+      "tipo": "despesa",
+      "categoria": "Cor sim",
+      "data": "2025-08-19"
+    },
+    {
+      "id": "d809",
+      "nome": "Fudidos",
+      "valor": "2",
+      "tipo": "receita",
+      "categoria": "t66",
+      "data": "2025-08-19"
     }
   ]
 }

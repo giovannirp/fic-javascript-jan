@@ -11,5 +11,30 @@
       "renda": "33"
     }
   ],
-  "trasacoes": []
+  "transacoes": [
+    {
+      "id": "87b6",
+      "nome": "Padaria",
+      "valor": "66",
+      "tipo": "receita",
+      "categoria": "Cor sim",
+      "data": "2025-08-19"
+    },
+    {
+      "id": "9d82",
+      "nome": "Fudidos",
+      "valor": "39",
+      "tipo": "despesa",
+      "categoria": "Cor sim",
+      "data": "2025-08-19"
+    },
+    {
+      "id": "8031",
+      "nome": "Novo",
+      "valor": "344",
+      "tipo": "despesa",
+      "categoria": "Cor sim",
+      "data": "2025-08-18"
+    }
+  ]
 }

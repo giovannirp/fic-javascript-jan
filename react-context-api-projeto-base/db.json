@@ -1,69 +1,11 @@
 {
   "usuarios": [
     {
-      "id": "4f28",
-      "nome": "João",
-      "renda": "7"
-    },
-    {
-      "id": "a18b",
-      "nome": "João",
-      "renda": "33"
-    },
-    {
-      "id": "b634",
-      "nome": "dede",
-      "renda": "55"
+      "id": "1127",
+      "nome": "Giovanni",
+      "renda": "45",
+      "orcamentoDiario": 1.5
     }
   ],
-  "transacoes": [
-    {
-      "id": "87b6",
-      "nome": "Padaria",
-      "valor": "66",
-      "tipo": "receita",
-      "categoria": "Cor sim",
-      "data": "2025-08-19"
-    },
-    {
-      "id": "9d82",
-      "nome": "Fudidos",
-      "valor": "39",
-      "tipo": "despesa",
-      "categoria": "Cor sim",
-      "data": "2025-08-19"
-    },
-    {
-      "id": "8031",
-      "nome": "Novo",
-      "valor": "344",
-      "tipo": "despesa",
-      "categoria": "Cor sim",
-      "data": "2025-08-18"
-    },
-    {
-      "id": "ccc1",
-      "nome": "Pix",
-      "valor": "333",
-      "tipo": "despesa",
-      "categoria": "Cor sim",
-      "data": "2025-08-19"
-    },
-    {
-      "id": "a791",
-      "nome": "",
-      "valor": "555",
-      "tipo": "despesa",
-      "categoria": "Cor sim",
-      "data": "2025-08-19"
-    },
-    {
-      "id": "d809",
-      "nome": "Fudidos",
-      "valor": "2",
-      "tipo": "receita",
-      "categoria": "t66",
-      "data": "2025-08-19"
-    }
-  ]
+  "transacoes": []
 }

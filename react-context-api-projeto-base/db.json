@@ -5,7 +5,22 @@
       "nome": "Giovanni",
       "renda": "45",
       "orcamentoDiario": 1.5
+    },
+    {
+      "id": "09ce",
+      "nome": "Giovanni",
+      "renda": "33",
+      "orcamentoDiario": 1.1
     }
   ],
-  "transacoes": []
+  "transacoes": [
+    {
+      "id": "21c6",
+      "nome": "Timei",
+      "valor": "33",
+      "tipo": "receita",
+      "categoria": "Cor sim",
+      "data": "2025-08-22"
+    }
+  ]
 }

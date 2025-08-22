@@ -1,5 +1,5 @@
 import MoneyIcon from "../Icones/MoneyIcon";
-import { useContext, useRef, useState } from "react";
+import {  useRef, useState } from "react";
 import Transacao from "../Transacao";
 import { Cartao, CartaoCabecalho, CartaoCorpo } from "../Cartao";
 import Botao from "../Botao";
@@ -44,7 +44,7 @@ const Transacoes = () => {
 
   const {transacoes, criaTransacao} = useAppContext();
 
-   const [novaTransacao, setNovaTransacao] = useState<Omit<ITransacoes, "id">>({
+   const [novaTransacao, setNovaTransacao] = useState<Omit<ITransacoes, "id" | "userId">>({
     nome: "",
     valor: 0,
     tipo: "receita",
@@ -128,7 +128,7 @@ const Transacoes = () => {
                 id="tipo"
                 value={novaTransacao.tipo}
                 onChange={(e: React.ChangeEvent<HTMLSelectElement>) =>
-                  aoMudar("tipo", e.target.value)
+                  aoMudar("tipo", parseFloat(e.target.value))
                 }
               >
                 <SelectOption value="">Selecione o tipo</SelectOption>

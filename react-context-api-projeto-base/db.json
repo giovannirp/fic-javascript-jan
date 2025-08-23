@@ -1,53 +1,21 @@
 {
   "usuarios": [
     {
-      "id": "1127",
-      "nome": "Giovanni",
-      "renda": "45",
-      "orcamentoDiario": "1.532840"
-    },
-    {
-      "id": "09ce",
-      "nome": "Giovanni",
-      "renda": "33",
-      "orcamentoDiario": 1.1
+      "id": "eecc",
+      "nome": "Pedro",
+      "renda": "10",
+      "orcamentoDiario": "0.33333333333333330555"
     }
   ],
   "transacoes": [
     {
-      "id": "21c6",
-      "nome": "Timei",
-      "valor": "33",
+      "id": "5cf3",
+      "nome": "Caixa",
+      "valor": "555",
       "tipo": "receita",
-      "categoria": "Cor sim",
-      "data": "2025-08-22"
-    },
-    {
-      "id": "d1b6",
-      "nome": "Fudidos",
-      "valor": "3",
-      "tipo": "receita",
-      "categoria": "Cor sim",
-      "data": "2025-08-22",
-      "userId": "1127"
-    },
-    {
-      "id": "1380",
-      "nome": "Fudidos",
-      "valor": "5",
-      "tipo": null,
-      "categoria": "Cor sim",
-      "data": "2025-08-22",
-      "userId": "1127"
-    },
-    {
-      "id": "181f",
-      "nome": "Pix",
-      "valor": "40",
-      "tipo": "receita",
-      "categoria": "Cor sim",
-      "data": "2025-08-22",
-      "userId": "1127"
+      "categoria": "Caixa",
+      "data": "1988-10-05",
+      "userId": "eecc"
     }
   ]
 }

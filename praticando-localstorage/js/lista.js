@@ -19,8 +19,10 @@ function renderTasks() {
 button.addEventListener("click", () => {
     const task = input.value.trim();
     if (task) {
-        tasks.push(task);
-        renderTasks();
+        tasks.push(task); // Adicona array
+        localStorage.setItem("tasks", JSON.stringify(tasks))
+        input.value = ""; // Limpa o input
+        renderTasks(); // Atualiza a lista
     }
 });
 

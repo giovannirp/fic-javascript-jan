@@ -1,0 +1,26 @@
+Verificar node na maqui e fazer instalação
+npm -v
+node -v
+
+ npm init -> para criar o projeto
+
+ - Criando um servidor Express
+npm install express
+
+
+instalar o express
+- npm install express
+
+criando um arquivo json
+{
+	"id": 7,
+	"nome": "Dodo",
+	"idade": "55"
+}
+
+-Instalando nodemon
+* npm install nodemon
+*
+
+no packge coloquei "type": "module",
+instalei no código json-viewer/

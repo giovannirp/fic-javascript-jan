@@ -1,0 +1,19 @@
+Verificar node na maqui e fazer instalação
+npm -v
+node -v
+
+ npm init -> para criar o projeto
+
+ - Criando um servidor Express
+npm install express
+
+--------------
+Middleware é todo o tipo de função que está entre um pedido HTTP e a resposta final que o servidor envia de volta para o cliente.
+
+Por exemplo, usando Express.js, um pedido GET simples teria esta código:
+
+var app = express();
+app.get('/', function(req, res, next) {
+  res.send('Hello World!');
+});
+se quiser
